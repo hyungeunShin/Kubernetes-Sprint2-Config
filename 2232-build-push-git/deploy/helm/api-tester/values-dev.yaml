@@ -4,7 +4,7 @@ replicaCount: 1
 image:
   repository: gusrms0978/api-tester
   pullPolicy: Always
-  tag: "git-251118.083759"
+  tag: 1.0.0
 
 resources:
   limits:
