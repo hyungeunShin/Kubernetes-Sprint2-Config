@@ -95,7 +95,7 @@ pipeline {
                             git config user.email "${GITHUB_USERNAME}@email.com"
                             git config user.name "${GITHUB_USERNAME}"
 
-                            git remote set-url origin https://${USERNAME}:${PASSWORD}@github.com/${GITHUB_USERNAME}/kubernetes-anotherclass-sprint2.git
+                            git remote set-url origin https://${USERNAME}:${PASSWORD}@github.com/${GITHUB_USERNAME}/Kubernetes-Sprint2-Config.git
 
                             git add ${valuesFile}
                             git commit -m "Update ${valuesFile} with new image tag: ${TAG}"
